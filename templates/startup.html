@@ -1,0 +1,20 @@
+<!doctype html>
+<title>Upload an file </title>
+<div class="flashes">
+    <form action="" method=post enctype=multipart/form-data>
+        <h1>Convertion of an Image to Thumbnail</h1>
+        <h3>Upload any Image File</h3>
+        <p><input type=file name=image_file>
+           <input type=submit name=button value="Convert to Thumbnail">
+    </form>
+    <form action="" method=post enctype=multipart/form-data>
+        <h1>PDF Conversion</h1>
+        <h3>Upload any File</h3>
+        <p><input type=file name=text_file>
+           <input type=submit name=button value="Convert to PDF">
+    </form> 
+    {% for message in get_flashed_messages()%}
+        ERROR : {{ message }}
+    {% endfor %}
+</div>
+
