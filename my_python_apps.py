@@ -116,6 +116,6 @@ def download(file_name):
 
 
 if __name__ == '__main__':
-    my_app.run(debug=True)
+    my_app.run(host='0.0.0.0', debug=True)
 
 
