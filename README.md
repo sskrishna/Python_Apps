@@ -4,7 +4,7 @@ Python apps with flask
 Steps to run : 
 - Create the setup by installing reqired packages.
      - python setup.py install
-               or
+               (or)
      - pip install requirements.txt
 - Run the app.
      - python my_python_apps.py 
