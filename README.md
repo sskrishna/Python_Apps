@@ -5,7 +5,7 @@ Steps to run :
 - Create the setup by installing reqired packages.
      - python setup.py install
                (or)
-     - pip install requirements.txt
+     - pip install -r requirements.txt
 - Run the app.
      - python my_python_apps.py 
 
